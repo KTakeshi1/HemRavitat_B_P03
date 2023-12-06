@@ -310,7 +310,7 @@ GameObject:
   - component: {fileID: 301955773}
   - component: {fileID: 301955772}
   m_Layer: 5
-  m_Name: TestCanvas
+  m_Name: DialogueCanvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -477,104 +477,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 344715955}
   m_CullTransparentMesh: 1
---- !u!1 &351239936
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 351239940}
-  - component: {fileID: 351239939}
-  - component: {fileID: 351239938}
-  - component: {fileID: 351239937}
-  m_Layer: 0
-  m_Name: DialogueController
-  m_TagString: Untagged
-  m_Icon: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000, type: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!65 &351239937
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 351239936}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
---- !u!23 &351239938
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 351239936}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_StaticShadowCaster: 0
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RayTracingMode: 2
-  m_RayTraceProcedural: 0
-  m_RenderingLayerMask: 1
-  m_RendererPriority: 0
-  m_Materials:
-  - {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_ReceiveGI: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 1
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
-  m_AdditionalVertexStreams: {fileID: 0}
---- !u!33 &351239939
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 351239936}
-  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
---- !u!4 &351239940
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 351239936}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1550786828}
-  m_Father: {fileID: 0}
-  m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &506424257
 GameObject:
   m_ObjectHideFlags: 0
@@ -1309,100 +1211,17 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1418469197}
   m_CullTransparentMesh: 1
---- !u!1 &1550786827
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1550786828}
-  - component: {fileID: 1550786829}
-  m_Layer: 0
-  m_Name: DialogueScript
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!4 &1550786828
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1550786827}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0.96, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 351239940}
-  m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1550786829
+--- !u!114 &1550786829 stripped
 MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
+  m_CorrespondingSourceObject: {fileID: 5704463642795572930, guid: eb6f43fe7144f7a498c5d282eb977467, type: 3}
+  m_PrefabInstance: {fileID: 5704463644198887375}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1550786827}
+  m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 0e3e7c812d6894245b51b41c49b794a4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  mainCanvas: {fileID: 0}
-  dialogueText: {fileID: 635235270}
-  nameText: {fileID: 1786855613}
-  characterImage: {fileID: 344715957}
-  panelImage: {fileID: 506424259}
-  dialogueColor: {r: 0, g: 0, b: 0, a: 1}
-  nameColor: {r: 1, g: 1, b: 1, a: 1}
-  currentLine: 0
-  dialogues:
-  - characterName: Balint
-    dialogue: Whoa... where... where am I? What is this place?
-    speakerImage: {fileID: 21300000, guid: 40bf4d0be10c7d44ebb9c61ac93c5bf2, type: 3}
-  - characterName: Balint
-    dialogue: Hello? Hello??
-    speakerImage: {fileID: 21300000, guid: 2543b6cbad74e564597146aac879607d, type: 3}
-  - characterName: Balint
-    dialogue: Is anyone there?
-    speakerImage: {fileID: 21300000, guid: 2543b6cbad74e564597146aac879607d, type: 3}
-  - characterName: Macey
-    dialogue: Oh my gosh are you okay?? I saw you fall down from over there...
-    speakerImage: {fileID: 21300000, guid: 7c9941777490369438457ea1eae11642, type: 3}
-  - characterName: Balint
-    dialogue: Yeah... I... I think I'm alright... Nothing's broken I'm pretty sure.
-    speakerImage: {fileID: 21300000, guid: 2543b6cbad74e564597146aac879607d, type: 3}
-  - characterName: Balint
-    dialogue: But... who are you? Where... are we?
-    speakerImage: {fileID: 21300000, guid: 2543b6cbad74e564597146aac879607d, type: 3}
-  - characterName: Macey
-    dialogue: My name's Macey! As for where we are... well... we're in the Unity
-      engine! This is the Visual Novel Tool, where users can create their own scenes!
-    speakerImage: {fileID: 21300000, guid: a74e9ccc58027994d9fdc95f8af10d69, type: 3}
-  - characterName: Balint
-    dialogue: ...
-    speakerImage: {fileID: 21300000, guid: cbde8b488afaf864fa363b576ac69437, type: 3}
-  - characterName: Balint
-    dialogue: You're... kidding, right?
-    speakerImage: {fileID: 21300000, guid: bf8c006abd29a3c4d91b33a554180bc1, type: 3}
-  - characterName: Macey
-    dialogue: Uh... well judging from the fact that we're both images talking via
-      text I uh... I'll assume about as much...
-    speakerImage: {fileID: 21300000, guid: 7c9941777490369438457ea1eae11642, type: 3}
-  - characterName: Balint
-    dialogue: ...
-    speakerImage: {fileID: 21300000, guid: bf8c006abd29a3c4d91b33a554180bc1, type: 3}
-  - characterName: Balint
-    dialogue: Why do I keep getting myself into these random situations...
-    speakerImage: {fileID: 21300000, guid: bf8c006abd29a3c4d91b33a554180bc1, type: 3}
-  - characterName: Macey
-    dialogue: Aren't you quite the charmer...
-    speakerImage: {fileID: 21300000, guid: f74fa755b89e15e4f9eeea2e994082cc, type: 3}
 --- !u!1 &1761141700
 GameObject:
   m_ObjectHideFlags: 0
@@ -1720,3 +1539,259 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 2127263803}
   m_CullTransparentMesh: 1
+--- !u!1001 &5704463644198887375
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 5704463642795572930, guid: eb6f43fe7144f7a498c5d282eb977467, type: 3}
+      propertyPath: nameText
+      value: 
+      objectReference: {fileID: 1786855613}
+    - target: {fileID: 5704463642795572930, guid: eb6f43fe7144f7a498c5d282eb977467, type: 3}
+      propertyPath: mainCanvas
+      value: 
+      objectReference: {fileID: 301955774}
+    - target: {fileID: 5704463642795572930, guid: eb6f43fe7144f7a498c5d282eb977467, type: 3}
+      propertyPath: panelImage
+      value: 
+      objectReference: {fileID: 506424259}
+    - target: {fileID: 5704463642795572930, guid: eb6f43fe7144f7a498c5d282eb977467, type: 3}
+      propertyPath: dialogueText
+      value: 
+      objectReference: {fileID: 635235270}
+    - target: {fileID: 5704463642795572930, guid: eb6f43fe7144f7a498c5d282eb977467, type: 3}
+      propertyPath: characterImage
+      value: 
+      objectReference: {fileID: 344715957}
+    - target: {fileID: 5704463642795572930, guid: eb6f43fe7144f7a498c5d282eb977467, type: 3}
+      propertyPath: dialogues.Array.size
+      value: 13
+      objectReference: {fileID: 0}
+    - target: {fileID: 5704463642795572930, guid: eb6f43fe7144f7a498c5d282eb977467, type: 3}
+      propertyPath: dialogues.Array.data[0].dialogue
+      value: Whoa... what's this?
+      objectReference: {fileID: 0}
+    - target: {fileID: 5704463642795572930, guid: eb6f43fe7144f7a498c5d282eb977467, type: 3}
+      propertyPath: dialogues.Array.data[1].dialogue
+      value: Where am I?
+      objectReference: {fileID: 0}
+    - target: {fileID: 5704463642795572930, guid: eb6f43fe7144f7a498c5d282eb977467, type: 3}
+      propertyPath: dialogues.Array.data[2].dialogue
+      value: Oh my gosh are you alright?! I saw you fall down here and it looked
+        really rough so I came over as fast as I could!
+      objectReference: {fileID: 0}
+    - target: {fileID: 5704463642795572930, guid: eb6f43fe7144f7a498c5d282eb977467, type: 3}
+      propertyPath: dialogues.Array.data[3].dialogue
+      value: Yeah... yeah I'm alright... Nothing's broken thankfully...
+      objectReference: {fileID: 0}
+    - target: {fileID: 5704463642795572930, guid: eb6f43fe7144f7a498c5d282eb977467, type: 3}
+      propertyPath: dialogues.Array.data[4].dialogue
+      value: But now that that's over... who exactly... are you? And where are we?
+      objectReference: {fileID: 0}
+    - target: {fileID: 5704463642795572930, guid: eb6f43fe7144f7a498c5d282eb977467, type: 3}
+      propertyPath: dialogues.Array.data[5].dialogue
+      value: Oh that's great to hear... As for me, my name's Macey! As for where
+        we are, we're in the Unity 3D game engine!
+      objectReference: {fileID: 0}
+    - target: {fileID: 5704463642795572930, guid: eb6f43fe7144f7a498c5d282eb977467, type: 3}
+      propertyPath: dialogues.Array.data[6].dialogue
+      value: ...
+      objectReference: {fileID: 0}
+    - target: {fileID: 5704463642795572930, guid: eb6f43fe7144f7a498c5d282eb977467, type: 3}
+      propertyPath: dialogues.Array.data[7].dialogue
+      value: ...what?
+      objectReference: {fileID: 0}
+    - target: {fileID: 5704463642795572930, guid: eb6f43fe7144f7a498c5d282eb977467, type: 3}
+      propertyPath: dialogues.Array.data[8].dialogue
+      value: That's right, we're two characters used to demonstrate the functionality
+        of the creator's visual novel tool! And-
+      objectReference: {fileID: 0}
+    - target: {fileID: 5704463642795572930, guid: eb6f43fe7144f7a498c5d282eb977467, type: 3}
+      propertyPath: dialogues.Array.data[9].dialogue
+      value: ...
+      objectReference: {fileID: 0}
+    - target: {fileID: 5704463642795572930, guid: eb6f43fe7144f7a498c5d282eb977467, type: 3}
+      propertyPath: dialogues.Array.data[10].dialogue
+      value: Are you alright there?
+      objectReference: {fileID: 0}
+    - target: {fileID: 5704463642795572930, guid: eb6f43fe7144f7a498c5d282eb977467, type: 3}
+      propertyPath: dialogues.Array.data[11].dialogue
+      value: '*Sigh* I find what you just said hard to believe...'
+      objectReference: {fileID: 0}
+    - target: {fileID: 5704463642795572930, guid: eb6f43fe7144f7a498c5d282eb977467, type: 3}
+      propertyPath: dialogues.Array.data[12].dialogue
+      value: Ugh... forget it.
+      objectReference: {fileID: 0}
+    - target: {fileID: 5704463642795572930, guid: eb6f43fe7144f7a498c5d282eb977467, type: 3}
+      propertyPath: dialogues.Array.data[1].character
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5704463642795572930, guid: eb6f43fe7144f7a498c5d282eb977467, type: 3}
+      propertyPath: dialogues.Array.data[12].character
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5704463642795572930, guid: eb6f43fe7144f7a498c5d282eb977467, type: 3}
+      propertyPath: dialogues.Array.data[0].speakerImage
+      value: 
+      objectReference: {fileID: 21300000, guid: 40bf4d0be10c7d44ebb9c61ac93c5bf2, type: 3}
+    - target: {fileID: 5704463642795572930, guid: eb6f43fe7144f7a498c5d282eb977467, type: 3}
+      propertyPath: dialogues.Array.data[1].speakerImage
+      value: 
+      objectReference: {fileID: 21300000, guid: 40bf4d0be10c7d44ebb9c61ac93c5bf2, type: 3}
+    - target: {fileID: 5704463642795572930, guid: eb6f43fe7144f7a498c5d282eb977467, type: 3}
+      propertyPath: dialogues.Array.data[0].characterName
+      value: Balint
+      objectReference: {fileID: 0}
+    - target: {fileID: 5704463642795572930, guid: eb6f43fe7144f7a498c5d282eb977467, type: 3}
+      propertyPath: dialogues.Array.data[1].characterName
+      value: Balint
+      objectReference: {fileID: 0}
+    - target: {fileID: 5704463642795572930, guid: eb6f43fe7144f7a498c5d282eb977467, type: 3}
+      propertyPath: dialogues.Array.data[2].characterName
+      value: Unknown Person
+      objectReference: {fileID: 0}
+    - target: {fileID: 5704463642795572930, guid: eb6f43fe7144f7a498c5d282eb977467, type: 3}
+      propertyPath: dialogues.Array.data[3].characterName
+      value: Balint
+      objectReference: {fileID: 0}
+    - target: {fileID: 5704463642795572930, guid: eb6f43fe7144f7a498c5d282eb977467, type: 3}
+      propertyPath: dialogues.Array.data[4].characterName
+      value: Balint
+      objectReference: {fileID: 0}
+    - target: {fileID: 5704463642795572930, guid: eb6f43fe7144f7a498c5d282eb977467, type: 3}
+      propertyPath: dialogues.Array.data[5].characterName
+      value: Unknown Person
+      objectReference: {fileID: 0}
+    - target: {fileID: 5704463642795572930, guid: eb6f43fe7144f7a498c5d282eb977467, type: 3}
+      propertyPath: dialogues.Array.data[6].characterName
+      value: Balint
+      objectReference: {fileID: 0}
+    - target: {fileID: 5704463642795572930, guid: eb6f43fe7144f7a498c5d282eb977467, type: 3}
+      propertyPath: dialogues.Array.data[7].characterName
+      value: Balint
+      objectReference: {fileID: 0}
+    - target: {fileID: 5704463642795572930, guid: eb6f43fe7144f7a498c5d282eb977467, type: 3}
+      propertyPath: dialogues.Array.data[8].characterName
+      value: Macey
+      objectReference: {fileID: 0}
+    - target: {fileID: 5704463642795572930, guid: eb6f43fe7144f7a498c5d282eb977467, type: 3}
+      propertyPath: dialogues.Array.data[9].characterName
+      value: Macey
+      objectReference: {fileID: 0}
+    - target: {fileID: 5704463642795572930, guid: eb6f43fe7144f7a498c5d282eb977467, type: 3}
+      propertyPath: dialogues.Array.data[0].characterImage
+      value: 
+      objectReference: {fileID: 21300000, guid: 40bf4d0be10c7d44ebb9c61ac93c5bf2, type: 3}
+    - target: {fileID: 5704463642795572930, guid: eb6f43fe7144f7a498c5d282eb977467, type: 3}
+      propertyPath: dialogues.Array.data[10].characterName
+      value: Macey
+      objectReference: {fileID: 0}
+    - target: {fileID: 5704463642795572930, guid: eb6f43fe7144f7a498c5d282eb977467, type: 3}
+      propertyPath: dialogues.Array.data[11].characterName
+      value: Balint
+      objectReference: {fileID: 0}
+    - target: {fileID: 5704463642795572930, guid: eb6f43fe7144f7a498c5d282eb977467, type: 3}
+      propertyPath: dialogues.Array.data[12].characterName
+      value: Macey
+      objectReference: {fileID: 0}
+    - target: {fileID: 5704463642795572930, guid: eb6f43fe7144f7a498c5d282eb977467, type: 3}
+      propertyPath: dialogues.Array.data[1].characterImage
+      value: 
+      objectReference: {fileID: 21300000, guid: 2543b6cbad74e564597146aac879607d, type: 3}
+    - target: {fileID: 5704463642795572930, guid: eb6f43fe7144f7a498c5d282eb977467, type: 3}
+      propertyPath: dialogues.Array.data[2].characterImage
+      value: 
+      objectReference: {fileID: 21300000, guid: 7c9941777490369438457ea1eae11642, type: 3}
+    - target: {fileID: 5704463642795572930, guid: eb6f43fe7144f7a498c5d282eb977467, type: 3}
+      propertyPath: dialogues.Array.data[3].characterImage
+      value: 
+      objectReference: {fileID: 21300000, guid: 0e2bf555a5d884444939732820a564d2, type: 3}
+    - target: {fileID: 5704463642795572930, guid: eb6f43fe7144f7a498c5d282eb977467, type: 3}
+      propertyPath: dialogues.Array.data[4].characterImage
+      value: 
+      objectReference: {fileID: 21300000, guid: 0e2bf555a5d884444939732820a564d2, type: 3}
+    - target: {fileID: 5704463642795572930, guid: eb6f43fe7144f7a498c5d282eb977467, type: 3}
+      propertyPath: dialogues.Array.data[5].characterImage
+      value: 
+      objectReference: {fileID: 21300000, guid: a74e9ccc58027994d9fdc95f8af10d69, type: 3}
+    - target: {fileID: 5704463642795572930, guid: eb6f43fe7144f7a498c5d282eb977467, type: 3}
+      propertyPath: dialogues.Array.data[6].characterImage
+      value: 
+      objectReference: {fileID: 21300000, guid: cbde8b488afaf864fa363b576ac69437, type: 3}
+    - target: {fileID: 5704463642795572930, guid: eb6f43fe7144f7a498c5d282eb977467, type: 3}
+      propertyPath: dialogues.Array.data[7].characterImage
+      value: 
+      objectReference: {fileID: 21300000, guid: bf8c006abd29a3c4d91b33a554180bc1, type: 3}
+    - target: {fileID: 5704463642795572930, guid: eb6f43fe7144f7a498c5d282eb977467, type: 3}
+      propertyPath: dialogues.Array.data[8].characterImage
+      value: 
+      objectReference: {fileID: 21300000, guid: a74e9ccc58027994d9fdc95f8af10d69, type: 3}
+    - target: {fileID: 5704463642795572930, guid: eb6f43fe7144f7a498c5d282eb977467, type: 3}
+      propertyPath: dialogues.Array.data[9].characterImage
+      value: 
+      objectReference: {fileID: 21300000, guid: 7c9941777490369438457ea1eae11642, type: 3}
+    - target: {fileID: 5704463642795572930, guid: eb6f43fe7144f7a498c5d282eb977467, type: 3}
+      propertyPath: dialogues.Array.data[10].characterImage
+      value: 
+      objectReference: {fileID: 21300000, guid: 7c9941777490369438457ea1eae11642, type: 3}
+    - target: {fileID: 5704463642795572930, guid: eb6f43fe7144f7a498c5d282eb977467, type: 3}
+      propertyPath: dialogues.Array.data[11].characterImage
+      value: 
+      objectReference: {fileID: 21300000, guid: bf8c006abd29a3c4d91b33a554180bc1, type: 3}
+    - target: {fileID: 5704463642795572930, guid: eb6f43fe7144f7a498c5d282eb977467, type: 3}
+      propertyPath: dialogues.Array.data[12].characterImage
+      value: 
+      objectReference: {fileID: 21300000, guid: ecddf55f84bc56a4a97de0c1fc154fdb, type: 3}
+    - target: {fileID: 5704463643995119819, guid: eb6f43fe7144f7a498c5d282eb977467, type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5704463643995119819, guid: eb6f43fe7144f7a498c5d282eb977467, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5704463643995119819, guid: eb6f43fe7144f7a498c5d282eb977467, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5704463643995119819, guid: eb6f43fe7144f7a498c5d282eb977467, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5704463643995119819, guid: eb6f43fe7144f7a498c5d282eb977467, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5704463643995119819, guid: eb6f43fe7144f7a498c5d282eb977467, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5704463643995119819, guid: eb6f43fe7144f7a498c5d282eb977467, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5704463643995119819, guid: eb6f43fe7144f7a498c5d282eb977467, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5704463643995119819, guid: eb6f43fe7144f7a498c5d282eb977467, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5704463643995119819, guid: eb6f43fe7144f7a498c5d282eb977467, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5704463643995119819, guid: eb6f43fe7144f7a498c5d282eb977467, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5704463643995119823, guid: eb6f43fe7144f7a498c5d282eb977467, type: 3}
+      propertyPath: m_Name
+      value: DialogueController
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: eb6f43fe7144f7a498c5d282eb977467, type: 3}
